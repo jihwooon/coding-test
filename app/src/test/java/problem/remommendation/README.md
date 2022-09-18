@@ -129,5 +129,5 @@ https://www.acmicpc.net/problem/3665  최종순위(응용)
 https://www.acmicpc.net/problem/2637  장난감조림(응용)
 
 ## Reference
-비전공자 IT 서비스 대기업 합격까지 과정 - 2부 [알고리즘 문제 추천 50문제] 
+[비전공자 IT 서비스 대기업 합격까지 과정 - 2부] (https://cafe.naver.com/startdevelopercareer?iframe_url_utf8=%2FArticleRead.nhn%3FreferrerAllArticles%3Dtrue%26clubid%3D30372458%26articleid%3D6) 
 
