@@ -1,4 +1,4 @@
-package problem.backtracking;
+package problem.remommendation.backtracking;
 
 /**
  * ## 미지의 것
