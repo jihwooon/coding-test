@@ -1,4 +1,4 @@
-package problem.dynamicprogramming;
+package problem.remommendation.dynamicprogramming;
 
 import org.junit.jupiter.api.Test;
 
