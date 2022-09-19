@@ -17,7 +17,8 @@ import java.util.LinkedList;
  * -
  * <p>
  * ## 계획
- * -
+ * - element, max을 담을 요소를 만든다.
+ * - 스택 기능을 구현한다.
  * -
  * <p>
  * ## 반성

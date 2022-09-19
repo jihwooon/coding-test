@@ -2,7 +2,7 @@
 
 작성자: 안지환  
 마지막 수정일: 2022.09.19  
-JIRA Epic:
+JIRA Epic: [262가지 문제로 정복하는 코딩인터뷰](https://jihwon-ahn.atlassian.net/browse/TM-78?atlOrigin=eyJpIjoiMGViNjNkOTU3NTE4NGNmMDlkZDNlNWJmNmUwNGViZGQiLCJwIjoiaiJ9)
 
 ### 요약 (Summary)
 이 책은 소프트웨어 개발 직군의 기술 면접을 돕기 위해 만들어졌다.   
