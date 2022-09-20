@@ -1,4 +1,4 @@
-package problem.codingInterview.stack_queue;
+package problem.coding_Interview.stack_queue;
 
 import java.util.Deque;
 import java.util.LinkedList;
