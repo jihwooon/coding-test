@@ -1,4 +1,4 @@
-package problem.codingInterview.graph;
+package problem.coding_Interview.graph;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
