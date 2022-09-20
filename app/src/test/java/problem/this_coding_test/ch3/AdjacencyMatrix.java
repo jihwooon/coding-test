@@ -1,4 +1,4 @@
-package problem.coding_Interview.graph;
+package problem.this_coding_test.ch3;
 
 import org.junit.jupiter.api.Test;
 
