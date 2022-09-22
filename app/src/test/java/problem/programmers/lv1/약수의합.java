@@ -1,4 +1,4 @@
-package problem.programmers;
+package problem.programmers.lv1;
 
 
 import org.junit.jupiter.api.Test;
