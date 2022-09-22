@@ -1,11 +1,6 @@
 package problem.programmers;
 
-import org.checkerframework.checker.units.qual.A;
 import org.junit.jupiter.api.Test;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -53,7 +48,6 @@ public class 파괴되지않은건물 {
                 } else { // type 2
                     answer = c + skill[0][skill.length];
                 }
-
 
                 //결과값이 0 이상이면 count 한다.
                 if (answer > 0) {

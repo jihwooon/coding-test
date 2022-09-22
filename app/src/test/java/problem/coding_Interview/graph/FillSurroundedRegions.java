@@ -1,6 +1,8 @@
 package problem.coding_Interview.graph;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
 
@@ -34,6 +36,11 @@ public class FillSurroundedRegions {
         public Coordinate(Integer x, Integer y) {
             this.x = x;
             this.y = y;
+        }
+
+        @Override
+        public String toString() {
+            return "x : " + x + " y : " + y;
         }
     }
 
@@ -88,7 +95,6 @@ public class FillSurroundedRegions {
 
     public static void main(String[] args) {
         Coordinate coordinate = new Coordinate(4, 4);
-
-
+        System.out.println("coordinate = " + coordinate.toString());
     }
 }
