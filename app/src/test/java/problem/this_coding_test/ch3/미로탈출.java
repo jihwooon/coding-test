@@ -55,12 +55,12 @@ public class 미로탈출 {
         return minCount;
     }
 
-    public static int inSide(int x, int y) {
+    public static boolean isInSide(int x, int y) {
         if(x >= 0 && x < row && y >= 0 && y < cal) {
-            return 0;
+            return true;
         }
 
-        return 1;
+        return false;
     }
 
     public static void bfs(int x, int y, int[][] graph) {
@@ -72,7 +72,7 @@ public class 미로탈출 {
             int nx = x + dx[i];
             int ny = y + dy[i];
 
-            if(inSide(nx, ny) == 0 && visited[nx][ny] == true && graph[nx][ny] == 0) {
+            if(isInSide(nx, ny) == true && visited[nx][ny] == true && graph[nx][ny] == 0) {
                 visited[nx][ny] = true;
                 bfs(nx,ny, graph);
             }

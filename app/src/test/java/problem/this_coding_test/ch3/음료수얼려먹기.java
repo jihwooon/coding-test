@@ -87,7 +87,6 @@ public class 음료수얼려먹기 {
     }
 
 
-
     @Test
     void result() {
         assertThat(solution(new int[][]{
