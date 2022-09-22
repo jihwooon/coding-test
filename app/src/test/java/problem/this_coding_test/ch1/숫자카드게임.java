@@ -22,7 +22,8 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>
  * ## 계획
  * - 카드 N x M 형태의 2차원 행렬 배열을 만든다.
- * - 반복문을 사용해서 각 행의 기장 작은 수를 찾는다.
+ * - 반복문을 사용해서 각 행의 가장 작은 수를 찾는다.
+ * - 각 행의 최소값 중 최대값을 반환한다.
  * <p>
  * ## 반성
  * - 처음에는 Integer.MIN_VALUE 을 사용했다. 최소값이라고 해서 나는 최소값을 주면 되는 줄 알았다.
