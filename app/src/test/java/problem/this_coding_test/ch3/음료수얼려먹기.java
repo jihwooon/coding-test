@@ -2,6 +2,9 @@ package problem.this_coding_test.ch3;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
@@ -64,7 +67,6 @@ public class 음료수얼려먹기 {
     }
 
     public boolean isInside(int x, int y) { //내부 방문 확인
-
         if(x >= 0 && x < row && y >=0 && y < cal) {
             return true;
         }
@@ -73,7 +75,6 @@ public class 음료수얼려먹기 {
     }
 
     public void dfs(int x, int y, int[][] map) {
-
         for(int i = 0; i < 4; i++) {
             int nx = x + dx[i];
             int ny = y + dy[i];
