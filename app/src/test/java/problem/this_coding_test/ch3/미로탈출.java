@@ -41,16 +41,7 @@ public class 미로탈출 {
         cal = graph[0].length;
         visited = new boolean[row][cal];
 
-        for(int i = 0; i < row; i++) {
-            for(int j = 0; j < cal;  j++) {
-                if(graph[i][j] == 0 && visited[i][j] == true ) {
-                    visited[i][j] = true;
-                    bfs(i, j, graph);
-                }
-            }
-            return 0;
 
-        }
 
         return minCount;
     }
@@ -61,23 +52,6 @@ public class 미로탈출 {
         }
 
         return false;
-    }
-
-    public static void bfs(int x, int y, int[][] graph) {
-        Queue<Integer> queue = new ArrayDeque<>();
-        queue.offer(x);
-        queue.offer(y);
-
-        for(int i = 0; i < 4; i++) {
-            int nx = x + dx[i];
-            int ny = y + dy[i];
-
-            if(isInSide(nx, ny) == true && visited[nx][ny] == true && graph[nx][ny] == 0) {
-                visited[nx][ny] = true;
-                bfs(nx,ny, graph);
-            }
-        }
-
     }
 
     @Test
