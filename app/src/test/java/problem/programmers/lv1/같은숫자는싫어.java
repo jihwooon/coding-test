@@ -23,7 +23,8 @@ import static org.assertj.core.api.Assertions.assertThat;
  * - for문안에서 배열이 같은 숫자가 아니면 list에 저장되게 한다.
  *
  * ## 반성
- * - num 변수가 for문안에서 어떻게 되고 왜 if()문에서 초기값이 변경 되는지 이해 해야 겠다.
+ * - num 변수가 for문 안에서 어떻게 되고 왜 if()문에서 초기값이 변경 되는지 이해 해야겠다.
+ *
  */
 
 public class 같은숫자는싫어 {
