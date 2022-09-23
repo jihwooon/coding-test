@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Queue;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -53,8 +52,8 @@ public class 기능개발 {
 
         // 배포가
         int count = 1; // 배포 갯수
-        int FrontDistribution = queue.poll(); //
-        for (int i = queue.size(); i > 0; i--) {
+        int FrontDistribution = queue.poll();
+        while (!queue.isEmpty()) {
             if(FrontDistribution < queue.peek()) {
                 list.add(count);
                 count = 1;
