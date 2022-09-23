@@ -1,9 +1,8 @@
-package problem.this_coding_test.ch1;
+package problem.remommendation.ch1;
 
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.within;
 
 /**
  * ## 미지의 것
@@ -49,7 +48,6 @@ public class One이될때까지 {
             n -= 1;
             count += 1;
         }
-
 
         return count;
     }

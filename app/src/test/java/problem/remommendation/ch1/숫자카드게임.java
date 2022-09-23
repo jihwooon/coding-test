@@ -1,4 +1,4 @@
-package problem.this_coding_test.ch1;
+package problem.remommendation.ch1;
 
 import org.junit.jupiter.api.Test;
 
@@ -42,8 +42,6 @@ public class 숫자카드게임 {
             int minValue = Integer.MAX_VALUE;
             for (int j = 0; j < cal; j++) {
                 minValue = Math.min(minValue, graph[i][j]);
-                System.out.println("graph = " + Arrays.deepToString(graph));
-
             }
             result = Math.max(result, minValue);
         }
