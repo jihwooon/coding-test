@@ -2,12 +2,7 @@ package problem.programmers.lv1;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Stack;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
