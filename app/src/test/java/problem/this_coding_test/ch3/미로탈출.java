@@ -41,8 +41,6 @@ public class 미로탈출 {
         cal = graph[0].length;
         visited = new boolean[row][cal];
 
-
-
         return minCount;
     }
 
@@ -54,6 +52,24 @@ public class 미로탈출 {
         return false;
     }
 
+    public static void bfs(int x, int y, int[][] graph) {
+        Queue<Integer> queue = new ArrayDeque<>();
+        queue.offer(x);
+        queue.offer(y);
+
+        for(int i = 0; i < 4; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+
+            if(isInSide(nx, ny) == true && visited[nx][ny] == true && graph[nx][ny] == 0) {
+                visited[nx][ny] = true;
+                bfs(nx,ny, graph);
+            }
+        }
+
+    }
+
+
     @Test
     void result() {
         assertThat(solution(new int[][] {
@@ -63,3 +79,5 @@ public class 미로탈출 {
         })).isEqualTo(5);
     }
 }
+
+
