@@ -33,11 +33,10 @@ public class 거스름돈 {
 
     public int solution(int n, int ... coins) {
         int minNumber = 0; // 최소값
-
         for(int coin : coins) {
             minNumber += n / coin;
             n %= coin;
-            System.out.println("n = " + n);
+
         }
 
         return minNumber;
