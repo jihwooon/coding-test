@@ -1,4 +1,4 @@
-package problem.this_coding_test.ch1;
+package problem.remommendation.ch1;
 
 import org.junit.jupiter.api.Test;
 

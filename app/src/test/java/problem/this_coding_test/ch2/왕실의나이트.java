@@ -61,5 +61,4 @@ public class 왕실의나이트 {
         assertThat(solution("d4")).isEqualTo(8);
     }
 
-
 }
