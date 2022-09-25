@@ -49,8 +49,7 @@ public class 기능개발 {
         for (int i = 0; i < progresses.length; i++) {
             queue.offer((int) Math.ceil((double) (100 - progresses[i]) / speeds[i]));
         }
-
-        // 배포가
+        
         int count = 1; // 배포 갯수
         int FrontDistribution = queue.poll();
         while (!queue.isEmpty()) {
