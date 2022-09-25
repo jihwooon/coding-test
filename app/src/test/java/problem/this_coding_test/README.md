@@ -1,7 +1,5 @@
 # 이것이 코딩 테스트다.
 
-작성자: 안지환  
-마지막 수정일: 2022.09.20  
 JIRA Epic: [이것이 코딩 테스트다](https://jihwon-ahn.atlassian.net/browse/TM-61?atlOrigin=eyJpIjoiY2Q4ZDRhZWFhZDNjNDgyYmEzOWQ3YjQ5M2Y4MjRkYmYiLCJwIjoiaiJ9)
 
 ### 요약 (Summary)
