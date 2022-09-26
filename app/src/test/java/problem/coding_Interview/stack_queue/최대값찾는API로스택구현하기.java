@@ -68,21 +68,16 @@ public class 최대값찾는API로스택구현하기 {
     }
 
     public static void main(String[] args) {
-        ElementWithCachedMax elementWithCachedMax = new ElementWithCachedMax(1, 3);
-
         Stack stack = new Stack();
         stack.push(10);
         stack.push(12);
         stack.push(13);
 
-//        Integer pop = stack.pop();
-//        System.out.println("pop = " + pop);
-//
-//        Integer pop1 = stack.pop();
-//        System.out.println("pop1 = " + pop1);
-//
-//        Integer pop2 = stack.pop();
-//        System.out.println("pop2 = " + pop2);
+        Integer pop = stack.pop();
+        System.out.println("pop = " + pop);
+
+        Integer pop1 = stack.pop();
+        System.out.println("pop1 = " + pop1);
 
         Integer max = stack.max();
         System.out.println("max = " + max);
